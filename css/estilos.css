@@ -27,6 +27,12 @@ header {
 
 }
 
+h2 a{
+    background-color: #CCCCCC;
+    text-decoration:none;
+    color: #666666;
+}
+
 .header__navegacion {
     flex-grow:1;
     background-color: #CCCCCC;
