@@ -137,6 +137,109 @@ form {
     width: 250px;
     height: 250px;
 }
+
+.main__galeria {
+    display:flex;
+    flex-direction:column;
+}
+.galeria__container {
+    display:grid;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    gap:10px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+}
+
+.animacionGaleria:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.galeria__uno {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__dos {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__tres {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__cuatro {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__cinco {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__seis {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__siete {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__ocho {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+.galeria__nueve {
+    width:300px;
+    height:300px;
+    background-image: url(../recursos/Image3.png);
+    background-size: cover;
+    justify-content:center;
+    transition: all 1s ease;
+}
+
+
 footer {
     display:block;
     background:#CCCCCC;
