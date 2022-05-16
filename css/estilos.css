@@ -68,10 +68,14 @@ li a {
     color: #AAAAAA;
 
 }
+.animacionPortada:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
 .portada{
     display:flex;
     flex-direction:column;
-    background-image: url(../recursos/img\ principal.jpg) ;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.5)), url("../recursos/img principal.jpg") ;
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -79,17 +83,18 @@ li a {
     height: 600px;
     justify-content: center;
     align-items: center;
-    
 
 }
 .portada__descripcion {
 
     padding: 10px;
+    transition: all 1s ease;
     text-align:center;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     color: #AAAAAA;
-    background: none;
+    background: #555555;
+    border-radius: 10px;
 
 }
 
@@ -113,7 +118,7 @@ li a {
     text-align:center;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    color: #AAAAAA;
+    color: #090909;
     background: none;
 
 }
