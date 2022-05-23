@@ -75,7 +75,7 @@ li a {
 .portada{
     display:flex;
     flex-direction:column;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.5)), url("../recursos/img principal.jpg") ;
+    background-image: url("../recursos/img principal.jpg") ;
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -125,6 +125,7 @@ li a {
 
 .portada__texto {
     background:none;
+    padding: 1px;
 }
 
 form {
@@ -144,14 +145,42 @@ form {
     align-items: center;
     align-self: center;
 }
-.sobremi__imagen {
+.imagen__sobremi {
+    background: url(../recursos/belu\ foto.jpg);
     width: 250px;
     height: 250px;
+}
+
+.sobremi__grid {
+    margin-top: 10px;
+}
+
+.animacionServicios:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
 }
 
 .main__galeria {
     display:flex;
     flex-direction:column;
+}
+
+.servicios__uno {
+    transition: all 1s ease;
+
+}
+
+.servicios__dos {
+    transition: all 1s ease;
+
+}
+
+.servicios__tres {
+    transition: all 1s ease;
+
+}
+.servicios__cuatro {
+    transition: all 1s ease;
+
 }
 .galeria__container {
     display:grid;
@@ -273,3 +302,22 @@ footer {
     opacity: 50%;
 }
 
+/* @media (min-width: 320px) and (max-width:540px) {
+
+    .galeria__uno {
+        display:none;
+    }
+    .galeria__tres {
+        display:none;
+    }
+    }
+    .galeria__seis {
+        display:none;
+    }
+    .galeria__siete {
+        display:none;
+    }
+    .galeria__nueve {
+        display:none;
+    }
+ */
