@@ -1,0 +1,304 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mediaqueries';
+*{
+    background-color: $color-background;
+    margin:0;
+    padding:0;
+    }
+body {
+    background-color: $color-background;
+    font-family: $font-principal;
+    font-size: medium;
+}
+
+.header {
+    display:flex;
+    background-color: $color-header;
+    align-items: center;
+    justify-content: flex-end;
+    width:100%;
+        &__titulo {
+        color: $color-titulo;
+        font-family: $font-principal;    
+        font-size: 32px;
+        font-weight:200;
+        background:none;
+        margin-left:10px;
+        }
+        &__navegacion {
+            flex-grow:1;
+            background-color: $color-header;
+        }
+        &__links {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            text-align: right;
+            background-color: $color-header;
+            padding: 15px;
+        }
+}
+
+
+h2 {
+    a {
+            background-color: $color-header;
+            text-decoration:none;
+            color: $color-titulo;
+    }
+}
+
+
+
+ul {
+    list-style-type: none;
+    li {
+        display:inline;
+        padding: 15px;
+        font-size: 15px;
+        font-family: $font-principal;
+        background-color: $color-header;
+        color: #AAAAAA; 
+        a {
+            background-color: #CCCCCC;
+            text-decoration:none;
+            color: #AAAAAA;
+        }
+    }
+
+}
+
+
+.animacionPortada:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.portada{
+    display:flex;
+    flex-direction:column;
+    background-image: url("../recursos/img principal.jpg") ;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+        &__descripcion {
+            padding: 10px;
+            transition: all 1s ease;
+            text-align:center;
+            font-family: $font-principal;
+            font-size: 15px;
+            color: $color-descripcion;
+            background: $color-bgdescripcion;
+            border-radius: 10px;
+        }
+    &__Dos {
+        display:flex;
+        flex-direction:column;
+        background-image: url(../recursos/Image3.png) ;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:  cover;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__descripcionDos {
+        padding: 10px;
+        text-align:center;
+        font-family: $font-principal;
+        font-size: 15px;
+        color: $color-descripciondos;
+        background: none;
+    }
+    &__texto {
+        background:none;
+        padding: 1px;
+    }
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    &__destacado {
+        display:flex;
+        flex-direction:row;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+.sobremi {
+    &__grid {
+    margin-top: 10px;
+    }
+}
+
+.animacionServicios:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.main__galeria {
+    display:flex;
+    flex-direction:column;
+}
+
+.servicios {
+    &__uno {
+        transition: all 1s ease;
+    }
+    &__dos {
+        transition: all 1s ease;
+    }
+    &__tres {
+        transition: all 1s ease;
+    }
+    &__cuatro {
+        transition: all 1s ease;
+    }
+}
+
+.animacionGaleria:hover {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+.galeria {
+    &__container {
+        display:grid;
+        justify-content: center;
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right:10px;
+        gap:10px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(3, 300px);
+    }
+    &__uno {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image3.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+        }
+    &__dos {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image15.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__tres {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image16.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__cuatro {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image25.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__cinco {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image4.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__seis {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image20.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__siete {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image21.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__ocho {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image27.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+    &__nueve {
+        width:300px;
+        height:300px;
+        background-image: url(../recursos/Image28.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+    }
+}
+
+.footer {
+    display:block;
+    background:$color-header;
+    padding: 20px;
+    font-family: $font-principal;
+    text-align: center;
+    font-style: italic;
+    font-size:15px;
+    font-style: italic;
+        &__redes {
+            width: 25px;
+            height: 25px;
+            background:none;
+            opacity: 50%;
+        }
+        &__texto {
+            background:none;
+            color:#AAAAAA;
+            }
+    }
+
+
+
+/* @media (min-width: 320px) and (max-width:540px) {
+
+    .galeria__uno {
+        display:none;
+    }
+    .galeria__tres {
+        display:none;
+    }
+    }
+    .galeria__seis {
+        display:none;
+    }
+    .galeria__siete {
+        display:none;
+    }
+    .galeria__nueve {
+        display:none;
+    }
+ */
