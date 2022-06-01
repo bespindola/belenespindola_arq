@@ -176,7 +176,7 @@ form {
 .servicios__cuatro {
   transition: all 1s ease; }
 
-.animacionGaleria:hover {
+.animacionGaleria:hover, .key1-card:hover, .key2-card:hover, .key3-card:hover, .key4-card:hover, .key5-card:hover, .key6-card:hover, .key7-card:hover, .key8-card:hover, .key9-card:hover {
   transform: translate(0px, 0px) scale(1.1, 1.1); }
 
 .galeria__container {
@@ -279,6 +279,78 @@ form {
   .footer__texto {
     background: none;
     color: #AAAAAA; }
+
+.key1-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image3.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key2-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image15.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key3-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image15.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key4-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image25.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key5-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image4.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key6-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image20.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key7-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image21.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key8-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image27.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
+
+.key9-card {
+  width: 300px;
+  height: 300px;
+  background-image: url(../recursos/image28.png);
+  background-size: cover;
+  justify-content: center;
+  transition: all 1s ease; }
 
 /* @media (min-width: 320px) and (max-width:540px) {
 

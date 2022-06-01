@@ -2,6 +2,25 @@
 @import 'header';
 @import 'footer';
 @import 'mediaqueries';
+
+$imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, key5: image4, key6: image20, key7: image21, key8: image27, key9: image28) ;
+
+@each $key, $imagen in $imagenesgaleria {
+    .#{$key}-card {
+        background-image: url(../recursos/#{$imagen}.png);
+        background-size: cover;
+        justify-content:center;
+        transition: all 1s ease;
+        @extend .animacionGaleria ;
+        @include galeria()
+    }
+}
+
+@mixin  galeria() {
+    width:300px;
+    height:300px;
+}
+
 *{
     background-color: $color-background;
     margin:0;
