@@ -5,6 +5,11 @@
 
 $imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, key5: image4, key6: image20, key7: image21, key8: image27, key9: image28) ;
 
+@mixin  galeria() {
+    width:300px;
+    height:300px;
+}
+
 @each $key, $imagen in $imagenesgaleria {
     .#{$key}-card {
         background-image: url(../recursos/#{$imagen}.png);
@@ -14,11 +19,6 @@ $imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, ke
         @extend .animacionGaleria ;
         @include galeria()
     }
-}
-
-@mixin  galeria() {
-    width:300px;
-    height:300px;
 }
 
 *{
@@ -79,11 +79,11 @@ ul {
         font-size: 15px;
         font-family: $font-principal;
         background-color: $color-header;
-        color: #AAAAAA; 
+        color: $color-titulo; 
         a {
             background-color: #CCCCCC;
             text-decoration:none;
-            color: #AAAAAA;
+            color: $color-titulo;
         }
     }
 
@@ -97,12 +97,12 @@ ul {
 .portada{
     display:flex;
     flex-direction:column;
-    background-image: url("../recursos/img principal.jpg") ;
+    background-image: url("../recursos/cover2.jpg") ;
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:  cover;
-    height: 600px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
         &__descripcion {
@@ -110,12 +110,46 @@ ul {
             transition: all 1s ease;
             text-align:center;
             font-family: $font-principal;
-            font-size: 15px;
-            color: $color-descripcion;
-            background: $color-bgdescripcion;
-            border-radius: 10px;
+            font-size: 45px;
+            color: $color-descripcionServicios;
+            background: none;
+            border-radius: 30px;
         }
-    &__Dos {
+        &__descripcionServicios {
+            padding: 10px;
+            transition: all 1s ease;
+            text-align:center;
+            font-family: $font-principal;
+            font-size: 30px;
+            color: $color-descripcionServicios;
+            background: none;
+            font-weight: 400;
+        }
+        &__Sobremi {
+            display:flex;
+            flex-direction:column;
+            background-image: url("../recursos/sobremi2.jpg") ;
+            background-attachment:fixed ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:  cover;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        &__Servicios { 
+            display:flex;
+            flex-direction:column;
+            background-image: url("../recursos/prueba1.jpg") ;
+            background-attachment:fixed ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:  cover;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        &__Dos {
         display:flex;
         flex-direction:column;
         background-image: url(../recursos/Image3.png) ;
@@ -140,6 +174,7 @@ ul {
         padding: 1px;
     }
 }
+
 
 form {
     display:flex;
@@ -188,6 +223,9 @@ form {
     &__cuatro {
         transition: all 1s ease;
     }
+}
+.btn {
+    background-color: $color-bgdescripcion;
 }
 
 .animacionGaleria:hover {
@@ -279,8 +317,26 @@ form {
     }
 }
 
+.card {
+    display: inline-block;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content:center;
+    border: #dddddd;
+    
+}
+.card-img-top {
+    background-color: none;
+}       
+.div {
+    background-color: none;
+}
 .footer {
-    display:block;
+    display:inline-block;
+    align-self: center;
+    align-content: center;
+    align-items: center;
     background:$color-header;
     padding: 20px;
     font-family: $font-principal;

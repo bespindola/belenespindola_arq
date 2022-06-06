@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de portfolio arquitectonico">
+    <meta name="keywords" content ="arquitectura, diseño, arte, portfolio, edificios, proyectos, arquitectonico, porftolio, argentina, servicios arquitectonicos, servicios de diseño, servicio de representacion, servicio de ilustracion"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,19 +27,40 @@
             </ul>
     </nav>
     </header>
-    <main>      
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-3 col-md-6"><img src="../recursos/renderizado.jpg" alt="responsive webite" class="animacionServicios servicios__uno">
-                </div>
-                <div class="col-lg-3 col-md-6"><img src="../recursos/maquetado.jpg" alt="responsive webite" class="animacionServicios servicios__dos">
-                </div>
-                <div class="col-lg-3 col-md-6"><img src="../recursos/planimetria.jpg" alt="responsive webite" class="animacionServicios servicios__tres">
-                </div>
-                <div class="col-lg-3 col-md-6"><img src="../recursos/ilustracion.jpg" alt="responsive webite" class="animacionServicios servicios__cuatro">
-                </div>
+    <main>
+        <section class="portada__Servicios">
+            <h1 class="portada__descripcionServicios animacionPortada">Nuestros servicios</h1>
+        </section>  
+        <div class="col d-flex justify-content-center"><div class="card" style="width: 16rem;">
+            <img src="../recursos/servicios/renderizado.png" class="card-img-top animacionPortada" alt="...">
+            <div class="card-body">
+            <h5 class="card-title text-center">renderizado</h5>
+            <p class="card-text text-center">generamos imagenes realistas y renderizadas del proyecto, tanto exterior como exterior</p>
+            </div>
         </div>
-    </div>
+        <div class="card" style="width: 16rem;">
+            <img src="../recursos/servicios/planimetria.png" class="card-img-top animacionPortada" alt="...">
+            <div class="card-body">
+            <h5 class="card-title text-center">planimetría</h5>
+            <p class="card-text text-center">realizamos la planimetría acordada, vistas, plantas y secciones.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 16rem;">
+            <img src="../recursos/servicios/renderizado.png" class="card-img-top animacionPortada" alt="...">
+            <div class="card-body">
+            <h5 class="card-title text-center">maquetado</h5>
+            <p class="card-text text-center">por cada proyecto realizamos maqueta en escala 1:50 en el material acordado.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 16rem;">
+            <img src="../recursos/servicios/sketching.png" class="card-img-top animacionPortada" alt="...">
+            <div class="card-body">
+            <h5 class="card-title text-center">ilustracion</h5>
+            <p class="card-text text-center">realizamos ilustraciones a modo de esquicio de los proyectos, vistas y perspectivas.</p>
+            </div>
+        </div>
+        </div>              
+        
     </main>
     <footer>
         <img class="footer__redes" src="../recursos/redes/instagram.svg" alt="logo intagram">
