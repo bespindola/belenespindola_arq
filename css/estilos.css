@@ -40,77 +40,74 @@ header {
     background: none;
     opacity: 50%; }
 
+@media (min-width: 320px) and (max-width: 540px) {
+  .galeria__uno {
+    display: none; }
+  .galeria__tres {
+    display: none; } }
+
+.galeria__seis {
+  display: none; }
+
+.galeria__siete {
+  display: none; }
+
+.galeria__nueve {
+  display: none; }
+
 .key1-card {
   background-image: url(../recursos/image3.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key2-card {
   background-image: url(../recursos/image15.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key3-card {
   background-image: url(../recursos/image15.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key4-card {
   background-image: url(../recursos/image25.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key5-card {
   background-image: url(../recursos/image4.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key6-card {
   background-image: url(../recursos/image20.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key7-card {
   background-image: url(../recursos/image21.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key8-card {
   background-image: url(../recursos/image27.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 .key9-card {
   background-image: url(../recursos/image28.png);
   background-size: cover;
   justify-content: center;
-  transition: all 1s ease;
-  width: 300px;
-  height: 300px; }
+  transition: all 1s ease; }
 
 * {
   background-color: #dddddd;
@@ -146,7 +143,7 @@ body {
     background-color: #CCCCCC;
     padding: 15px; }
 
-h2 a {
+h1 a {
   background-color: #CCCCCC;
   text-decoration: none;
   color: #666666; }
@@ -401,24 +398,4 @@ form {
     opacity: 50%; }
   .footer__texto {
     background: none;
-    color: #AAAAAA; }
-
-/* @media (min-width: 320px) and (max-width:540px) {
-
-    .galeria__uno {
-        display:none;
-    }
-    .galeria__tres {
-        display:none;
-    }
-    }
-    .galeria__seis {
-        display:none;
-    }
-    .galeria__siete {
-        display:none;
-    }
-    .galeria__nueve {
-        display:none;
-    }
- */
+    color: #090909; }

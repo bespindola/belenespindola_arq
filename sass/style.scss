@@ -3,12 +3,13 @@
 @import 'footer';
 @import 'mediaqueries';
 
+@mixin  galeria() {
+    width: 300px;
+    height: 300px;
+}
+
 $imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, key5: image4, key6: image20, key7: image21, key8: image27, key9: image28) ;
 
-@mixin  galeria() {
-    width:300px;
-    height:300px;
-}
 
 @each $key, $imagen in $imagenesgaleria {
     .#{$key}-card {
@@ -17,7 +18,6 @@ $imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, ke
         justify-content:center;
         transition: all 1s ease;
         @extend .animacionGaleria ;
-        @include galeria()
     }
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 
-h2 {
+h1 {
     a {
             background-color: $color-header;
             text-decoration:none;
@@ -352,28 +352,7 @@ form {
         }
         &__texto {
             background:none;
-            color:#AAAAAA;
+            color:$color-footer;
             }
     }
 
-
-
-/* @media (min-width: 320px) and (max-width:540px) {
-
-    .galeria__uno {
-        display:none;
-    }
-    .galeria__tres {
-        display:none;
-    }
-    }
-    .galeria__seis {
-        display:none;
-    }
-    .galeria__siete {
-        display:none;
-    }
-    .galeria__nueve {
-        display:none;
-    }
- */
