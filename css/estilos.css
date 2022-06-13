@@ -40,21 +40,6 @@ header {
     background: none;
     opacity: 50%; }
 
-@media (min-width: 320px) and (max-width: 540px) {
-  .galeria__uno {
-    display: none; }
-  .galeria__tres {
-    display: none; } }
-
-.galeria__seis {
-  display: none; }
-
-.galeria__siete {
-  display: none; }
-
-.galeria__nueve {
-  display: none; }
-
 .key1-card {
   background-image: url(../recursos/image3.png);
   background-size: cover;
@@ -294,6 +279,8 @@ form {
   grid-template-rows: repeat(3, 300px); }
 
 .galeria__uno {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image3.png);
@@ -302,6 +289,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__dos {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image15.png);
@@ -310,6 +299,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__tres {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image16.png);
@@ -318,6 +309,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__cuatro {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image25.png);
@@ -326,6 +319,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__cinco {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image4.png);
@@ -334,6 +329,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__seis {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image20.png);
@@ -342,6 +339,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__siete {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image21.png);
@@ -350,6 +349,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__ocho {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image27.png);
@@ -358,6 +359,8 @@ form {
   transition: all 1s ease; }
 
 .galeria__nueve {
+  display: table;
+  clear: both;
   width: 300px;
   height: 300px;
   background-image: url(../recursos/Image28.png);
@@ -399,3 +402,63 @@ form {
   .footer__texto {
     background: none;
     color: #090909; }
+
+@media screen and (max-width: 992px) {
+  .galeria__container {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(9, 300px); }
+  .key1-card {
+    width: 100%; }
+  .key2-card {
+    width: 100%; }
+  .key3-card {
+    width: 100%; }
+  .key4-card {
+    width: 100%; }
+  .key5-card {
+    width: 100%; }
+  .key6-card {
+    width: 100%; }
+  .key7-card {
+    width: 100%; }
+  .key8-card {
+    width: 100%; }
+  .key9-card {
+    width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .galeria__container {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(9, 300px); }
+  .key1-card {
+    width: 100%; }
+  .key2-card {
+    width: 100%; }
+  .key3-card {
+    width: 100%; }
+  .key4-card {
+    width: 100%; }
+  .key5-card {
+    width: 100%; }
+  .key6-card {
+    width: 100%; }
+  .key7-card {
+    width: 100%; }
+  .key8-card {
+    width: 100%; }
+  .key9-card {
+    width: 100%; } }
