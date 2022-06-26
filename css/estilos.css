@@ -128,10 +128,13 @@ body {
     background-color: #CCCCCC;
     padding: 15px; }
 
-h1 a {
-  background-color: #CCCCCC;
+h1 {
   text-decoration: none;
-  color: #666666; }
+  font-size: x-large; }
+  h1 a {
+    background-color: #CCCCCC;
+    text-decoration: none;
+    color: #666666; }
 
 ul {
   list-style-type: none; }
@@ -146,6 +149,24 @@ ul {
       background-color: #CCCCCC;
       text-decoration: none;
       color: #666666; }
+
+.container {
+  background-color: #dddddd; }
+
+.navbar {
+  background-color: #dddddd; }
+
+.navbar-brand {
+  background-color: #dddddd; }
+
+.container-fluid {
+  background-color: #dddddd; }
+
+.nav-item {
+  background-color: #dddddd; }
+
+.nav-link {
+  background-color: #dddddd; }
 
 .animacionPortada:hover {
   transform: translate(0px, 0px) scale(1.1, 1.1); }
@@ -387,7 +408,7 @@ form {
   align-self: center;
   align-content: center;
   align-items: center;
-  background: #CCCCCC;
+  background: #dddddd;
   padding: 20px;
   font-family: "Quicksand", sans-serif;
   text-align: center;

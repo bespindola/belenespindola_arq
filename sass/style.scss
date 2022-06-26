@@ -59,8 +59,9 @@ body {
         }
 }
 
-
 h1 {
+    text-decoration:none;
+    font-size: x-large;
     a {
             background-color: $color-header;
             text-decoration:none;
@@ -72,6 +73,7 @@ h1 {
 
 ul {
     list-style-type: none;
+
     li {
         display:inline;
         padding: 15px;
@@ -87,8 +89,28 @@ ul {
     }
 
 }
+.container {
+    background-color: $color-nav;
+    ;
+}
+.navbar {
+    background-color: $color-nav;
 
+}
+.navbar-brand {
+    background-color: $color-nav;
 
+}
+.container-fluid {
+    background-color: $color-nav;
+}
+.nav-item {
+    background-color: $color-nav;
+}
+.nav-link {
+    background-color: $color-nav;
+
+}
 .animacionPortada:hover {
     transform: translate(0px, 0px) scale(1.1, 1.1);
 }
@@ -354,7 +376,7 @@ form {
     align-self: center;
     align-content: center;
     align-items: center;
-    background:$color-header;
+    background: $color-nav;
     padding: 20px;
     font-family: $font-principal;
     text-align: center;
