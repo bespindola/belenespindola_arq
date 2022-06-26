@@ -41,55 +41,55 @@ header {
     opacity: 50%; }
 
 .key1-card {
-  background-image: url(../recursos/image3.png);
+  background-image: url(../recursos/Image3.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key2-card {
-  background-image: url(../recursos/image15.png);
+  background-image: url(../recursos/Image15.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key3-card {
-  background-image: url(../recursos/image15.png);
+  background-image: url(../recursos/Image15.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key4-card {
-  background-image: url(../recursos/image25.png);
+  background-image: url(../recursos/Image25.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key5-card {
-  background-image: url(../recursos/image4.png);
+  background-image: url(../recursos/Image4.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key6-card {
-  background-image: url(../recursos/image20.png);
+  background-image: url(../recursos/Image20.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key7-card {
-  background-image: url(../recursos/image21.png);
+  background-image: url(../recursos/Image21.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key8-card {
-  background-image: url(../recursos/image27.png);
+  background-image: url(../recursos/Image27.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
 
 .key9-card {
-  background-image: url(../recursos/image28.png);
+  background-image: url(../recursos/Image28.png);
   background-size: cover;
   justify-content: center;
   transition: all 1s ease; }
@@ -296,6 +296,7 @@ form {
   margin-left: 10px;
   margin-right: 10px;
   gap: 10px;
+  padding: 80px;
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(3, 300px); }
 

@@ -7,7 +7,7 @@
     height: 300px;
 }
 
-$imagenesgaleria: (key1: image3, key2: image15, key3: image15, key4: image25, key5: image4, key6: image20, key7: image21, key8: image27, key9: image28) ;
+$imagenesgaleria: (key1: Image3, key2: Image15, key3: Image15, key4: Image25, key5: Image4, key6: Image20, key7: Image21, key8: Image27, key9: Image28) ;
 
 
 @each $key, $imagen in $imagenesgaleria {
@@ -261,6 +261,7 @@ form {
         margin-left: 10px;
         margin-right:10px;
         gap:10px;
+        padding:80px;
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(3, 300px);
     }
