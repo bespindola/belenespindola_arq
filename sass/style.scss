@@ -1,6 +1,5 @@
 @import 'variables';
-@import 'header';
-@import 'footer';
+
 
 @mixin  galeria() {
     width: 300px;
@@ -261,7 +260,7 @@ form {
         margin-left: 10px;
         margin-right:10px;
         gap:10px;
-        padding:80px;
+        padding:px;
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(3, 300px);
     }
